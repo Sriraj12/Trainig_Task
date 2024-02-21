@@ -1,0 +1,40 @@
+.container{
+    margin: 0 499px 0 511px;
+    border: 1px solid black;
+    background-image: linear-gradient(#f7b3cf,#d2a1f1);
+}
+.fs-xl{
+    font-size: x-large;
+    text-align:center;
+}
+.button{
+    width: 107px;
+    height: 34px;
+    font-size: smaller;
+    background-color: #000000;
+    color: #ffffff;
+}
+.click{
+    padding-left: 56px;
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+.box{
+    padding-left: 69px;
+    padding-top: 33px;
+}
+.mt-13{
+    margin-top: 13px;
+    height:28px;
+}
+html{
+    background-color: azure;
+}
+#validation{
+    color:#ff0000;
+    margin-top:10px;
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+}

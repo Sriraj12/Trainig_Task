@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js">
+        </script>
+    </head>
+    <body>
+        <p>CHECKBOX EXERCISE</p>
+        <div class="container">
+            <div class="check">
+                <div>
+                    <input type="checkbox" name='click' class="box" value="Bike">
+                    <label>Bike</label>
+                </div>
+                <div>
+                    <input type="checkbox" name='click' class="box" value="Car">
+                    <label>Car</label>
+                </div>    
+                <div>
+                    <input type="checkbox" name='click' class="box" value="Bus">
+                    <label>Bus</label>
+                </div>
+                <div>
+                    <input type="checkbox" name='click' class="box" value="Train">
+                    <label>Train</label>
+                </div>
+                <div>
+                    <input type="checkbox" name='click' class="box" value="Flight">
+                    <label>Flight</label>
+                </div>
+            </div>
+            <div class="click">
+                <button type="button" onclick="checkbox('check')" class="button" value="Select All">Select All</button>
+                <button type="button" onclick="checkbox('unchecked')" class="button" value="Unselect All">Unselect All</button>
+                <input type="button" onclick="checkbox('swap')" class="button" value="Alternate Select">
+            </div>
+        </div>
+    </body>
+</html>

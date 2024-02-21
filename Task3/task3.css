@@ -1,0 +1,151 @@
+html{
+    background-color:#669900;
+}
+.container{
+    background-color:#ffffff;
+    margin:0 auto 623px;
+    width:655px;
+}
+.logo{
+    background-color:#99cc00;
+}
+
+.head{
+    border-bottom:1px dotted #cbc4c4;
+    margin-bottom:20px;  
+}
+.content{
+    margin:0 20px 0 20px;
+    font-family:"Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    font-size:small;
+}
+.mb-25{
+    margin-bottom:25px;
+}
+.content-mb{
+    margin-bottom:0.5rem;
+}
+.foot{
+    border-top:1px dotted #cbc4c4;
+    padding-top:0.8rem;
+    padding-bottom:0.9rem;
+}
+.flogo{
+    display:block !important;
+    width:100px !important;
+    text-decoration:none;
+    margin:-609px auto !important;
+}
+.ttext{
+    display:block !important;
+    font-weight:normal;
+    font-size:10px;
+    color:#606060 !important;
+}
+.ltext{
+    font-size: 10px;
+    color:#606060;
+}
+.title{
+    font-size:1.4rem;
+    margin-bottom:-11px;
+}
+.date{
+    padding-left: 10px;
+}
+.name{
+   display:inli
+    
+}
+.dollar{
+    padding-left:10px;
+}
+.color{
+    color:#ff0000;
+}
+.subt{
+    font-size:small;
+}
+.mb-25:focus-within{
+    background-color:#fff7c0;
+    margin-right:30%;
+}
+.flex{
+    display:flex;
+}
+.bottom{
+    margin:0 auto 623px;
+}
+.w-200{
+    width:200px !important;
+}
+.w-350{
+    width:350px !important;
+}
+.h-23{
+    height:23px !important;
+}
+.w-3p{
+    width:17px !important;
+}
+.w-5p{
+    width:30px !important;
+}
+.w-13p{
+    width:78px !important;
+}
+.w-11p{
+    width:66px !important;
+}
+.w-17p{
+    width:95px !important;
+}
+.w-4p{
+    width:24px !important;
+}
+.pl-14{
+    padding-left:1.4rem;
+}
+.pl-11{
+    padding-left:1.1rem;
+}
+.pl-32{
+    padding-left:3.2rem;
+}
+.pl-37{
+    padding-left:3.7rem;
+}
+.pl-17{
+    padding-left:1.7rem;
+}
+.pb-20{
+    padding-bottom:20px;
+}
+.submit{
+    height: 27px;
+    width: 66px;
+    font-size: 15px;
+}
+.symbol{
+    font-size:large;
+}
+#main{
+    background-color:#ffffff;
+    width:655px;
+}
+@media only screen and (max-device-width: 500px) {
+    .container{
+        display: flex;
+        justify-content: center !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width:0px;
+    }
+    #main{
+     background-color:#ffffff;
+      
+    }
+}
+.ml-1{
+    margin-left:0.4rem;
+}

@@ -1,0 +1,30 @@
+.container{
+    margin: 53px 0 0 477px;
+}
+.check{
+    padding-left: 161px;
+    font-size: xx-large;
+}
+.click{
+    padding-left: 56px;
+    padding-top: 33px;
+}
+.button{
+    width: 107px;
+    height: 34px;
+    font-size: smaller;
+    background-color: #000000;
+    color: #ffffff;
+}
+.box{
+    width: 20px;
+    height: 20px;
+}
+p{
+    margin-left: 542px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+html{
+    background-color: cornsilk;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="task3.css">
+    </head>
+    <body >
+        <div class="container">
+            <div id="main">
+                <header class="logo">
+                    <img src="logo.png" alt="logo" usemap="#mapwork">
+                        <map name="mapwork">
+                            <area shape="default" alt="wufoo" href="https://www.wufoo.com/">
+                        </map>
+                </header>
+                <form class="content">
+                    <div class="head">
+                        <p class="title">Employment Application</p>
+                        <p class="subt">Infinity Box Inc.</p> 
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Which position are you applying for?</b><span class="color">*</span></label></div>
+                        <div ><select class="w-200 h-23">
+                        <option></option>
+                        <option>Interface Designer</option>
+                        <option>Software Engineer</option>
+                        <option>System Administrator</option>
+                        <option>Office Manager</option>
+                        </select></div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Are you willing to relocate?</b></label><span class="color">*</span></div>
+                        <div class="content-mb"><input type="radio" name="reloc" value="reloc">Yes </div>
+                        <div><input type="radio" name="reloc" value="reloc">No</div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>When can you start?</b></label><span class="color">*</span></div>
+                        <div class="symbol"><input type="textarea"name="start" class="w-3p h-23" value size="2"  maxlength="2"> / 
+                        <input type="textarea" class="w-3p h-23" value size="2"  maxlength="2"> /
+                        <input type="textarea" class="w-5p h-23" value size="4"  maxlength="4"><span class="ml-1"><img src="calendar.png" alt="datepicker"></span></div>
+                        <div>DD<span class="pl-17">MM</span><span class="pl-17">YYYY</span></div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Portfolio web site</b></label></div>
+                        <div ><input type="url" name="website" value="http://" class="w-350 h-23"></div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Attach a Copy of Your Resume</b></label></div>
+                        <div class="content-mb"><input type="file" name="resume"></div>
+                        <div >Word or PDF Document only</div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Salary Requirements</b></label></div>
+                        <div class="symbol">$<input type="text" class="w-13p h-23"> .
+                        <input type="text" class="w-3p h-23"></div>
+                        <div class="dollar">Dollars<span class="pl-37">Cents</span></div>
+                    </div>
+                    <div class="foot symbol">
+                        Your Contact Information
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Name</b></lable><span class="color">*</span></div>
+                        <div><input type="text" name="fname" class="w-11p h-23">
+                        <input type="text" name="lname" class="w-17p h-23"></div>
+                        <div>First<span class="pl-32">Last</span></div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Email Address</b></label><span class="color">*</span></div>
+                        <div><input type="email" name="email" class="w-350 h-23"></div>
+                    </div>
+                    <div class="mb-25">
+                        <div class="content-mb"><label><b>Phone</b></label><span class="color">*</span></div>
+                        <div><input type="tel" class="w-4p h-23" value size="3"  maxlength="3"> -
+                        <input type="tel" class="w-4p h-23" value size="3"  maxlength="3"> -
+                        <input type="tel" class="w-5p h-23" value size="4" maxlength="4"></div>
+                        <div><span>###</span><span class="pl-17">###</span><span class="pl-11">####</span></div>
+                    </div>
+                    <div class="pb-20">
+                        <input type="submit" class="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="https://www.wufoo.com/" target="_blank" title="Powered by Wufoo" class="flogo">
+            <b class="ttext">Powered By</b>
+            <img src="wufoo-logo-.png" width="100" alt="Wufoo"> 
+            <span class="ltext">See how easy it is to</span>
+        </a>
+    </body>
+</html>

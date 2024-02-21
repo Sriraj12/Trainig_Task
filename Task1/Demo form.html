@@ -1,0 +1,104 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Event Planner <select style="background-color: aqua;margin-bottom: 5px;margin-left:20px;border-color: aqua;" >
+        <option>More Action</option>
+    </select></h1>
+    <form>
+        <div class="container">
+            <div class="flex-item">
+                <div class="port">
+                <label>Event name:</label>
+                <div><input type="text" name="ename"></div>
+                </div>
+                <div class="port">
+                <label>Event Coordinator:</label>
+                <div><input type="text" name="ecoor"></div>
+                </div>
+                <div class="port">
+                <label>Email:</label>
+                <div><input type="email" name="email"></div>
+                </div>
+                <div class="port">
+                <label>Event Type:</label>
+                <div><select style="width:177px;">
+                    <option value="concert">Concert</option>
+                </select></div>
+                </div>
+                <div class="port">
+                <label>Total Members:</label>
+                <div><select style="width:178px;">
+                    <option value="select">select</option>
+                </select></div>
+                </div>
+                <div class="root">
+                <label>Event Description:</label>
+                <div><textarea cols="20" rows="5" value="Event Description" style="margin-right:8px ;width:170px;">
+                </textarea></div>
+                </div>
+                <div class="port">
+                <label style="margin-top:30px;">Dose your program<br>
+                    involves any types of<br>
+                    outside activity:</label>
+                <div style="margin-right: 130px;"><input type="radio" name="activ" value="yes">Yes<br>
+                <input type="radio" name="activ" value="no">No</div>
+                </div>
+                <div class="port" style="margin-top: -32px;" >
+                <label style="margin-top:30px;">Cost per person:</label>
+                <div style="font-size:15px;"><input type="number" name="cper" min="1"max="9999"style="width:130px;margin-right:20px;">USD</div>
+                </div>
+                </div>
+                <div class="flex-item" style="margin-left: 40px;">
+                <div class="port">    
+                <label>Requirements:</label>
+                <div style="margin-right: 92px;"><input type="checkbox" name="req" value="Staffing">Staffing<br>
+                <input type="checkbox" name="req" value="Catering">Catering<br>
+                <input type="checkbox" name="req" value="Security">Security</div>
+                </div>
+                <div class="port">
+                <label>Event Start Date:</label>
+                <div style="margin-right: 5px;"><input type="datetime-local" name="estart"></div>
+                </div>
+                <div class="port">
+                <label>Event End Date:</label>
+                <div style="margin-right: 5px;"><input type="datetime-local" name="end"></div>
+                </div>
+                <div class="root" style="margin-bottom: 28px;">
+                <label>Location:</label>
+                <div><textarea cosl="40" rows="5" value="location" style="width:192px;"></textarea></div>
+                </div>
+                <div class="port">
+                <label>City:</label>
+                <div style="width:192px;"><input type="text" name="city"></div>
+                </div>
+                <div class="port">
+                <label>State:</label>
+                <div><select style="width:192px;">
+                    <option>Select</option>
+                </select></div>
+                </div>
+                <div class="port">
+                <label>Country:</label>
+                <div><select style="width:192px;">
+                    <option>Select</option>
+                </select></div>
+                </div>
+                <div class="port" style="font-size: 23px;">
+                <div><label>ATTACH DETAILED ITINERARY:</label></div>
+                <div style="margin-right:-61px;"><input type="file" name="Attach"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        <input type="submit" style="margin-left: 600px; 
+        margin-top:10px;
+        background-color: aqua;">
+        <input type="reset" style="background-color: aqua;">
+        </div>
+    </form>
+</body>
+
+</html>

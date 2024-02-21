@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    
+}
+h1{
+    background-color: aqua;
+}
+.container{
+    display:flex;
+    line-height:30px;
+    margin-left:124px;
+
+}
+.flex-item{
+    text-align:left;
+    font-size:25px;
+    flex-basis:500px;
+   
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    align-items: baseline;
+    margin-bottom: 28px;
+}
+.root{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
